@@ -1,0 +1,39 @@
+/*
+Estilos da página Index.html
+*/
+
+.back{
+    background-color: rgb(204, 119, 176);
+    color: aliceblue;
+}
+
+.grace{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    text-align: justify;
+    padding:  20px;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+  font-size: 16px;
+  color: rgb(3, 3, 3);
+  font-weight: lighter;
+  text-align: block;
+  margin-left: 20px ;
+}
+
+
+/*
+Estilos da página cinema.html
+*/
+
+.sin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid rgb(204, 119, 176);
+    padding: 24px; 
+}
