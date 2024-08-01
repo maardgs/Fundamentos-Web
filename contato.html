@@ -15,7 +15,7 @@
 <body>
     
     <section>
-        <h2 class="back">Receba nossas atualizações: </h2>
+        <h2 class="back">Assine nossa Newsletter: </h2>
     </section>
     <fieldset>
    
@@ -32,13 +32,30 @@
         <input type="text" id="email" onkeyup = "validaEmail()">
         <div id="txtEmail"></div>
         <br>
-           <input type="submit">
+        <label class="enteeer" for="assunto">Assunto:</label>
+    <input type="text" id="assunto" onkeyup="validaAssunto()">
+    <div id="txtAssunto"></div>
+    <br>
+           <button onclick="enviar()">Enviar</button>
     </form>
    </fieldset>
+
+<section> 
+    <h2 class="back">Endereço: </h2>
+    <p>Av. Atlântica</p>
+    </section>
+   
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.4776175346237!2d-43.18390058858588!3d-22.9694579400282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd54d98452e99%3A0x1da40f6562d53001!2sAv.%20Atl%C3%A2ntica%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1722536043140!5m2!1spt-BR!2sbr" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     
-  <script src="assets/js/script.js"></script>
+</section>
 
+  
+<script src="assets/js/script.js"></script>
 
+<footer>
+    <p>
+    <a href="index.html"> <button>Inicio</button></a></p>
+    </footer>
 
 </body>
 </html>
